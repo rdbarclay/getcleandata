@@ -28,7 +28,7 @@ trainSubjectFile <- "subject_train.txt" # contains test subject identifier
 
 #step 1 combine data sets
 #Assume we are starting in the UCI HAR Dataset directory
-setwd("C:/data scientist toolkit/GetCleanData/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
+#setwd("C:/data scientist toolkit/GetCleanData/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
 actLabel <- read.table(actLabel)
 features <- read.table(features)
 #Go to the test directory
