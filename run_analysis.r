@@ -74,14 +74,15 @@ td4[,2] <- activ
 # use vector of features from above (take out 1- subject and 2 activity)
 # also subtract 2 to get us back to index on features
 ### - use this to keep original names
-###keeplbl <- keepsort[3:length(keeps)] -2
-###featlbls <- features[,2]
-###featlbl2 <- as.character(featlbls[keeplbl])
+keeplbl <- keepsort[3:length(keeps)] -2
+featlbls <- features[,2]
+featlbl2 <- as.character(featlbls[keeplbl])
 setwd("../")
 # read file containing new names in 3rd column called new_name
-newnames <- read.csv("features3.csv")
-# create character vector of new names
-featlbl2 <- as.character(newnames$new_name)
+### replace the following lines so they work standalone
+###newnames <- read.csv("features3.csv")
+### create character vector of new names
+###featlbl2 <- as.character(newnames$new_name)
 # add subject and activity as the firt two column lables
 alllbl <- c("subject","activity",featlbl2)
 # add column names to the data frame
