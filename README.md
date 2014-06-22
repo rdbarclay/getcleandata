@@ -3,7 +3,7 @@ getcleandata
 
 repository for Data Scientist Toolkit Getting and cleaning data course
 
-explains the workings of the 
+explains the workings of the run_analysis.r code
 
 Starting with the following files as obtained from zip
 
